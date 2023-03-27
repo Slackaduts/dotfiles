@@ -1,0 +1,93 @@
+    OpenRGB v0.81
+    Commit: 9e9a583009920813464dc8e59a67ca69310aa4c2 from 2023-01-27 14:26:56 +0100
+    Launched: 20230127_233415
+====================================================================================================
+
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    |             Detecting I2C interfaces               |
+1005  |Info:    ------------------------------------------------------
+1005  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:56A5 Subsystem: 1849:6004
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1005  |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+1005  |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1043:87C0
+1005  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1006  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1006  |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:56A5 Subsystem: 1849:6004
+1033  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:56A5 Subsystem: 1849:6004
+1033  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1043:87C0
+1033  |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1043:87C0
+1033  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1033  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1034  |Info:    Registering I2C interface: /dev/i2c-7 Device 8086:56A5 Subsystem: 1849:6004
+1034  |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:56A5 Subsystem: 1849:6004
+1034  |Info:    ------------------------------------------------------
+1034  |Info:    |               Detecting I2C devices                |
+1034  |Info:    ------------------------------------------------------
+1288  |Info:    [ENE DRAM] Registering RGB controller
+1430  |Info:    [ENE DRAM] Registering RGB controller
+2983  |Info:    ------------------------------------------------------
+2983  |Info:    |               Detecting I2C PCI devices            |
+2983  |Info:    ------------------------------------------------------
+2984  |Info:    ------------------------------------------------------
+2984  |Info:    |               Detecting HID devices                |
+2984  |Info:    ------------------------------------------------------
+3061  |Info:    [ASUS TUF GAMING X570-PLUS (WI-FI)] Registering RGB controller
+3085  |Info:    [Razer Deathadder V2] Registering RGB controller
+3085  |Info:    ------------------------------------------------------
+3085  |Info:    |            Detecting libusb HID devices            |
+3085  |Info:    ------------------------------------------------------
+3140  |Info:    ------------------------------------------------------
+3140  |Info:    |              Detecting other devices               |
+3140  |Info:    ------------------------------------------------------
+3148  |Info:    ------------------------------------------------------
+3148  |Info:    |                Detection completed                 |
+3148  |Info:    ------------------------------------------------------
+12484 |Info:    ------------------------------------------------------
+12484 |Info:    |               Start device detection               |
+12485 |Info:    ------------------------------------------------------
+12485 |Info:    Initializing HID interfaces: Success
+12488 |Info:    ------------------------------------------------------
+12488 |Info:    |             Detecting I2C interfaces               |
+12488 |Info:    ------------------------------------------------------
+12488 |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:56A5 Subsystem: 1849:6004
+12488 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+12488 |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+12488 |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1043:87C0
+12488 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+12488 |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+12488 |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:56A5 Subsystem: 1849:6004
+12488 |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:56A5 Subsystem: 1849:6004
+12488 |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1043:87C0
+12488 |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1043:87C0
+12488 |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+12489 |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+12489 |Info:    Registering I2C interface: /dev/i2c-7 Device 8086:56A5 Subsystem: 1849:6004
+12489 |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:56A5 Subsystem: 1849:6004
+12489 |Info:    ------------------------------------------------------
+12489 |Info:    |               Detecting I2C devices                |
+12489 |Info:    ------------------------------------------------------
+12741 |Info:    [ENE DRAM] Registering RGB controller
+12879 |Info:    [ENE DRAM] Registering RGB controller
+14429 |Info:    ------------------------------------------------------
+14429 |Info:    |               Detecting I2C PCI devices            |
+14429 |Info:    ------------------------------------------------------
+14430 |Info:    ------------------------------------------------------
+14430 |Info:    |               Detecting HID devices                |
+14430 |Info:    ------------------------------------------------------
+14509 |Info:    [ASUS TUF GAMING X570-PLUS (WI-FI)] Registering RGB controller
+14532 |Info:    [Razer Deathadder V2] Registering RGB controller
+14532 |Info:    ------------------------------------------------------
+14532 |Info:    |            Detecting libusb HID devices            |
+14532 |Info:    ------------------------------------------------------
+14582 |Info:    ------------------------------------------------------
+14582 |Info:    |              Detecting other devices               |
+14582 |Info:    ------------------------------------------------------
+14582 |Info:    ------------------------------------------------------
+14582 |Info:    |                Detection completed                 |
+14582 |Info:    ------------------------------------------------------
+37172 |Info:    Found file: OFF.orp attempting to validate header
+37172 |Info:    Valid v4 profile found for OFF

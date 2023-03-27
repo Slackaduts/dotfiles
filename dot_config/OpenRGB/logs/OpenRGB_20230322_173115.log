@@ -1,0 +1,53 @@
+    OpenRGB v0.8
+    Commit: fb88964b8e514cdf4eb22da314e13f8db06a3636 from 2022-11-27 21:44:33 -0600
+    Launched: 20230322_173115
+====================================================================================================
+
+0     |Info:    Found file: PURPLE.orp attempting to validate header
+0     |Info:    Valid v3 profile found for PURPLE
+0     |Info:    Found file: OFF.orp attempting to validate header
+0     |Info:    Valid v3 profile found for OFF
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    |               Start device detection               |
+1001  |Info:    ------------------------------------------------------
+1001  |Info:    Initializing HID interfaces: Success
+1006  |Info:    ------------------------------------------------------
+1006  |Info:    |             Detecting I2C interfaces               |
+1006  |Info:    ------------------------------------------------------
+1007  |Info:    Registering I2C interface: /dev/i2c-3 Device 8086:56A5 Subsystem: 1849:6004
+1007  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1007  |Info:    Registering I2C interface: /dev/i2c-10 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-1 Device 1022:790B Subsystem: 1043:87C0
+1007  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1007  |Info:    Registering I2C interface: /dev/i2c-8 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-6 Device 8086:56A5 Subsystem: 1849:6004
+1007  |Info:    Registering I2C interface: /dev/i2c-4 Device 8086:56A5 Subsystem: 1849:6004
+1007  |Info:    Registering I2C interface: /dev/i2c-2 Device 1022:790B Subsystem: 1043:87C0
+1007  |Info:    Registering I2C interface: /dev/i2c-0 Device 1022:790B Subsystem: 1043:87C0
+1007  |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+1007  |Info:    Registering I2C interface: /dev/i2c-9 Device 0000:0000 Subsystem: 0000:0000
+1007  |Info:    Registering I2C interface: /dev/i2c-7 Device 8086:56A5 Subsystem: 1849:6004
+1007  |Info:    Registering I2C interface: /dev/i2c-5 Device 8086:56A5 Subsystem: 1849:6004
+1007  |Info:    ------------------------------------------------------
+1007  |Info:    |               Detecting I2C devices                |
+1007  |Info:    ------------------------------------------------------
+1822  |Info:    [ENE DRAM] Registering RGB controller
+1962  |Info:    [ENE DRAM] Registering RGB controller
+2667  |Info:    ------------------------------------------------------
+2667  |Info:    |               Detecting I2C PCI devices            |
+2667  |Info:    ------------------------------------------------------
+2668  |Info:    ------------------------------------------------------
+2668  |Info:    |               Detecting HID devices                |
+2668  |Info:    ------------------------------------------------------
+2692  |Info:    [Razer Deathadder V2] Registering RGB controller
+2768  |Info:    [ASUS TUF GAMING X570-PLUS (WI-FI)] Registering RGB controller
+2768  |Info:    ------------------------------------------------------
+2768  |Info:    |              Detecting other devices               |
+2768  |Info:    ------------------------------------------------------
+2773  |Info:    ------------------------------------------------------
+2773  |Info:    |                Detection completed                 |
+2773  |Info:    ------------------------------------------------------
+3351  |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x72
+3351  |Info:    Profile loading: Succeeded for ENE DRAM @ I2C: /dev/i2c-0, address 0x73
+3351  |Info:    Profile loading: Succeeded for Razer Deathadder V2 @ HID: /dev/hidraw0
+3351  |Info:    Profile loading: Succeeded for ASUS TUF GAMING X570-PLUS (WI-FI) @ HID: /dev/hidraw4

@@ -1,0 +1,9 @@
+    OpenRGB v0.81
+    Commit: bbbf93beae940e9cfb4ff5fc5f0857c78dc66194 from 2023-02-01 17:09:32 +0000
+    Launched: 20230201_213324
+====================================================================================================
+
+0     |Info:    Found file: OFF.orp attempting to validate header
+0     |Info:    Valid v4 profile found for OFF
+0     |Info:    Found file: PURPLE.orp attempting to validate header
+0     |Info:    Valid v4 profile found for PURPLE
