@@ -1,0 +1,164 @@
+@define-color primary-text rgb (255, 182, 193);
+@define-color secondary-text rgb (144, 238, 144);
+@define-color alert-text rgb (255, 0, 0);
+
+@define-color window-grad1 rgba (238, 130, 238, 0.933);
+@define-color window-grad2 rgba (130, 238, 130, 0.933);
+@define-color window-inactive rgba (89, 89, 89, 0.667);
+
+@define-color kitty-background rgba (27, 28, 36, 0.8);
+@define-color kitty-foreground rgb (203, 204, 198);
+
+* {
+    transition: none;
+    box-shadow: none;
+    font-family: Sauce Code Pro Nerd Font;
+    font-size: 14px;
+    /* color: #f2f2f2; */
+}
+
+window#waybar {
+    background: transparent;
+}
+
+window > box {
+	margin-top: 6px;
+	margin-left: 6px;
+	margin-right: 6px;
+	margin-bottom: 0px;
+    background: @kitty-background;
+    border-top: 1px solid @window-inactive; 
+    border-bottom: 1px solid @window-inactive;
+    border-left: 1px solid @window-inactive; 
+    border-right: 1px solid @window-inactive;
+    border-radius: 5px;
+    padding: 0 6px;
+    /* border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
+    /* color: white; */
+}
+
+
+#workspaces button { 
+    padding: 0 6px;
+    color: @secondary-text;
+    background: transparent;
+} 
+
+#workspaces button.active {
+    color: @primary-text;
+    border-top: 1px solid @window-grad1;
+}
+
+#workspaces button.visible {
+    color: @secondary-text;
+    border-top: 1px solid transparent;
+}
+
+#mode {
+    background: #64727D;
+    border-bottom: 3px solid white;
+}
+
+
+#mode, #battery, #bluetooth, #cpu, #disk, #memory, #temperature, #network, #pulseaudio, #idle_inhibitor, #backlight, #mpd, #clock, #temperature {
+    margin: 0px 6px;
+    padding: 0 6px;
+    border-radius: 5px;
+    min-width: 6px;
+    /* background-color: #32363d; */
+}
+
+#window {
+	margin-left: 6px;
+	color: @kitty-foreground;
+}
+
+
+#network {
+	color: @secondary-text;
+}
+
+#network.disconnected {
+	color: red;
+}
+
+#network.disabled {
+	color: @window-inactive;
+}
+
+#pulseaudio {
+	color: @primary-text;
+}
+
+
+#clock {
+    /* margin: 4px 2px; */
+    /* padding: 0 10px; */
+    color: @kitty-foreground;
+  }
+
+#tray {
+    margin: 3px 2px;
+    border-radius: 12px;
+    background-color: transparent;
+}
+  
+#tray * {
+    padding: 0 6px;
+    border-left: 1px solid #060608;
+}
+  
+#tray *:first-child {
+    border-left: none;
+}
+
+#mpd * {
+	color: @kitty-foreground;
+}
+  
+#custom-powermenu {
+    margin: 4px 5px 4px 1px;
+    padding: 0 6px;
+    background-color: #722F37;
+    border-radius: 10px;
+    min-width: 15px;
+}
+  
+#custom-launcher {
+    margin: 4px 1px 4px 5px;
+    padding: 0 6px;
+    background-color: #ff0055;
+    border-radius: 10px;
+    min-width: 15px;
+}
+
+#battery.warning {
+    color: #e5c07a
+} 
+
+#battery.critical {
+    color: #ff0055
+}
+
+#temperature.critical {
+    color: #e06b74;
+}
+
+#custom-spotify {
+    padding: 0 6px;
+    /* margin: 0 4px; */
+    /* background-color: @kitty-background; */
+    color: @kitty-foreground;
+}
+
+#custom-spotify2 {
+	padding: 0 6px;
+	color: @secondary-text;
+}
+
+#custom-weather {
+	padding: 0 6px;
+	color: @secondary-text;
+}
+
+
