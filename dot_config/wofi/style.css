@@ -1,0 +1,52 @@
+@define-color primary-text rgb (255, 182, 193);
+@define-color secondary-text rgb (144, 238, 144);
+@define-color alert-text rgb (255, 0, 0);
+
+@define-color window-grad1 rgba (238, 130, 238, 0.933);
+@define-color window-grad2 rgba (130, 238, 130, 0.933);
+@define-color window-inactive rgba (89, 89, 89, 0.667);
+
+@define-color kitty-background rgba (27, 28, 36, 0.8);
+@define-color kitty-foreground rgb (203, 204, 198);
+
+window {
+margin: 0px;
+border: 1px solid #7A8478;
+background-color: @kitty-background;
+}
+
+#input {
+margin: 5px;
+border: none;
+color: #D3C6AA;
+background-color: #272E33;
+}
+
+#inner-box {
+margin: 5px;
+border: none;
+background-color: #1E2326;
+}
+
+#outer-box {
+margin: 5px;
+border: none;
+background-color: #1E2326;
+}
+
+#scroll {
+margin: 0px;
+border: none;
+}
+
+#text {
+margin: 5px;
+border: none;
+color: #D3C6AA;
+}
+
+#entry:selected {
+background-color: @prima;
+
+}
+
