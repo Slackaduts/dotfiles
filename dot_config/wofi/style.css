@@ -48,7 +48,8 @@ window {
 }
 
 #entry:selected {
-	background-color: @primary-text;
+	background-color: transparent;
+	border: 1px solid @window-grad1;
 	color: none;
 }
 
