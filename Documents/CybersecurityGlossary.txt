@@ -1,2 +1,3 @@
 Supply Chain Attack: When an attacker exploits a third party vendor to gain access to your systems.
 Operation Technology (OT): Monitoring software/hardware that detects changes to devices and events in the network.
+Endpoint Detection & Response (EDR): Integrated software that continually monitors an endpoint for security incidents, and can respond by changing settings or restoring systems.
