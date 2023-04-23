@@ -4,3 +4,4 @@ Endpoint Detection & Response (EDR): Integrated software that continually monito
 Network Deteciton & Response (NDR): Software that continually monitors network traffic for security incidents. Often uses AI or behavioural analytics.
 	Examples:
 		-ExeonTrace
+Living off the land (LOTL): Fileless malware that uses legitimate tools like PowerShell or WMI to execute the attack. Also called LOLbins.
