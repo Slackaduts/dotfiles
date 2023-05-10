@@ -5,3 +5,4 @@ Network Deteciton & Response (NDR): Software that continually monitors network t
 	Examples:
 		-ExeonTrace
 Living off the land (LOTL): Fileless malware that uses legitimate tools like PowerShell or WMI to execute the attack. Also called LOLbins.
+Honeytokens: A subset of honeypots, a fake credential that triggers an alert on the network when used, in order to detect data breaches more easily.
