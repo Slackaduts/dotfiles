@@ -1,7 +1,9 @@
 {
     "colorscheme": "simple",
-    "lsp.ignoreTriggerCharacters": "completion,signature",
-    "lsp.server": "python=pyls,go=gopls,typescript=deno lsp,rust=rls",
-    "lsp.tabcompletion": true,
+	"lsp.server": "python=pyls,go=gopls,typescript=deno lsp,rust=rls",
+	"lsp.formatOnSave": true,
+	"lsp.tabcompletion": true,
+	"lsp.ignoreTriggerCharacters": "completion,signature",
+	"lsp.autocompleteDetails": false
     "mkparents": true
 }
