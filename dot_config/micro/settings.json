@@ -1,3 +1,7 @@
 {
-	"mkparents": true
+    "colorscheme": "simple",
+    "lsp.ignoreTriggerCharacters": "completion,signature",
+    "lsp.server": "python=pyls,go=gopls,typescript=deno lsp,rust=rls",
+    "lsp.tabcompletion": true,
+    "mkparents": true
 }
